@@ -1,4 +1,8 @@
-![KakaoTalk_20240604_204501994](https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/65ac25a3-1246-455e-b668-fbcc4e3fbffc)
+
+
+
+https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/b331f771-f489-403a-ab69-8de5754d69c2
+
 
 1.Press keypad[0] to start the game.
 
