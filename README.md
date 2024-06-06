@@ -5,7 +5,7 @@
 
 https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/f62a8b47-b18d-49e5-9dad-6a281a12e7e2
 
-
+The function of converting RGB values of images into Hex values using Python and outputting graphics using ROM files was implemented. In addition, various motions such as character movement, jumps, attacks, and skills were implemented through FSM (Finite State Machine)
 
 1.Press keypad[0] to start the game.
 
