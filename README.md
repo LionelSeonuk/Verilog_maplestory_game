@@ -1,7 +1,10 @@
 
 
 
-https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/b331f771-f489-403a-ab69-8de5754d69c2
+
+
+https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/f62a8b47-b18d-49e5-9dad-6a281a12e7e2
+
 
 
 1.Press keypad[0] to start the game.
