@@ -1,12 +1,11 @@
 # Verilog Maplestory Game
 &nbsp;The function of converting RGB values of images into Hex values using Python and outputting graphics using ROM files was implemented.<br>
 &nbsp;In addition, various motions such as character movement, jumps, attacks, and skills were implemented through FSM (Finite State Machine)
+<div align=center>
+<img src="https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/200dbc68-1b40-423a-a703-ae21f9ca8b5d" width="70%"></img>
+</div>
 
-<img src="https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/200dbc68-1b40-423a-a703-ae21f9ca8b5d" width="50%"></img>
-
-# Video
-https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/f62a8b47-b18d-49e5-9dad-6a281a12e7e2
-
+# How to Play
 1. Press keypad[0] to start the game.
 2. Use btn_in[3] (left), btn_in[4] (right), and keypad[5] (jump) to control direction.
 3. Use btn_in[5] (attack)
@@ -14,6 +13,9 @@ https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/f62a8b4
 5. If you hit monsterskill, you lose a heart.
 6. If you have no heart, it’s <code>GAME OVER</code>.
 7. If you kill boss monster, you reach the ```ENDING```.
+8. 
+# Video
+https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/f62a8b47-b18d-49e5-9dad-6a281a12e7e2
 
 # Code Explain
 ```verilog
