@@ -140,19 +140,11 @@ assign rgb_walk = (walking_state == 2'b00) ? rgb_walk1 :
                    0;
 ```
 Implementing walk
-<!--<img src="https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/b15893a2-4a7d-4501-ab80-2f5483482bbe" width="50%"></img>-->
-
-<!--
-![687474703a2f2f6366696c65362e75662e746973746f72792e636f6d2f696d6167652f32343236453634363534334339423435333243374230](https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/b15893a2-4a7d-4501-ab80-2f5483482bbe)-->
-<!--
-![ezgif-7-8e01bfd68d](https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/200dbc68-1b40-423a-a703-ae21f9ca8b5d)-->
-
-<!--
-|제작 기간|ㅁ|ㅁ|
+<br>
+|제작 기간|팀원|임무|
 |--|--|--|
-|ㅁ|ㄴ|ㅇ|
-|ㅁ|ㄴ|ㅇ|
-|ㅁ|ㄴ|ㅇ|
+|24.05~06|AN SEONUK|rom,점프,공격,hit 구현|
+|24.05~06|SHIN HOJIN|HP,이동,배경,스킬 구현|
 
-[ㅁㄴㅇ](https://github.com/LionelSeonuk/Verilog_maplestory_game/blob/verilog/Project_maplestory.srcs/sources_1/new/top.v)
--->
+
+
