@@ -1,4 +1,4 @@
-# Verilog Maplestory Game
+# FPGA Maplestory Game
 &nbsp;The function of converting RGB values of images into Hex values using Python and outputting graphics using ROM files was implemented.<br>
 &nbsp;In addition, various motions such as character movement, jumps, attacks, and skills were implemented through FSM (Finite State Machine)
 <div align=center>
