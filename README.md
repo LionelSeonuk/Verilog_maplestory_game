@@ -29,7 +29,7 @@ n_left = c_left;
 end
 end
 ```
-Implement movement motion
+Implementing Movement Motion
 <br>
 ```verilog
 always @(posedge clk or posedge rst) begin
@@ -84,7 +84,7 @@ always @(posedge clk or posedge rst) begin
     end
 end
 ```
-Implementing an Attack
+Implementing Attack
 <br>
 ```verilog
 always @(*) begin
@@ -97,7 +97,7 @@ LIFE_4_ST: begin
 life_on1_0 <=1; life_on2_0 <=1; life_on3_0 <=1; life_on4_0 <=1;
 end...
 ```
-Realizing your physical strength
+Implementing Hp
 <br>
 ```verilog
 assign life_x_l = 100; 
@@ -109,7 +109,7 @@ always @(*) begin
 if (x>=life_x_l+16*0 && x<life_x_l+16*1) begin bit_addr_l = (x-life_x_l-16*0)>>1; char_addr_l = 7'b0000011; end ...
 
 ```
-Implementing an Hp
+Implementing Hp
 <br>
 ```verilog
 always @(posedge clk or posedge rst) begin
@@ -122,7 +122,7 @@ assign monster_hit = monster_hit_0 & (~stable_d);
 assign monster_hit_0 = (skill_x_rom <= monster_left) ? 1 : 0;
 
 ```
-Implementing an hit
+Implementing Hit
 <br>
 ```verilog
 reg [1:0] walking_state; // 2-bit state for walking
@@ -139,12 +139,12 @@ assign rgb_walk = (walking_state == 2'b00) ? rgb_walk1 :
                    (walking_state == 2'b11) ? rgb_walk4 :
                    0;
 ```
-Implementing walk
+Implementing Walk
 <br>
-|제작 기간|팀원|임무|
+|Production period|Member|Mission|
 |--|--|--|
-|24.05~06|AN SEONUK|rom,점프,공격,hit 구현|
-|24.05~06|SHIN HOJIN|HP,이동,배경,스킬 구현|
+|24.05~06|AN SEONUK|Implementation Rom,Jump,Attack,Hit|
+|24.05~06|SHIN HOJIN|Implementation HP,Walk,Background,Skill|
 
 
 
