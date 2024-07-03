@@ -123,6 +123,23 @@ assign monster_hit_0 = (skill_x_rom <= monster_left) ? 1 : 0;
 
 ```
 Implementing an hit
+<br>
+```verilog
+reg [1:0] walking_state; // 2-bit state for walking
+always @(posedge clk or posedge rst) begin
+    if (rst) begin 
+        walking_state <= 0;
+    end else if ((walking_trig && left_btn) || (walking_trig && right_btn)) begin
+        walking_state <= walking_state + 1;
+    end
+end
+assign rgb_walk = (walking_state == 2'b00) ? rgb_walk1 :
+                   (walking_state == 2'b01) ? rgb_walk2 :
+                   (walking_state == 2'b10) ? rgb_walk3 :
+                   (walking_state == 2'b11) ? rgb_walk4 :
+                   0;
+```
+Implementing walk
 <!--<img src="https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/b15893a2-4a7d-4501-ab80-2f5483482bbe" width="50%"></img>-->
 
 <!--
