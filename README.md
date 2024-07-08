@@ -13,8 +13,8 @@
 5. If you hit monsterskill, you lose a heart.
 6. If you have no heart, it’s <code>GAME OVER</code>.
 7. If you kill boss monster, you reach the ```ENDING```.
-8. 
-# Video
+
+# Result
 https://github.com/LionelSeonuk/Verilog_maplestory_game/assets/167200555/f62a8b47-b18d-49e5-9dad-6a281a12e7e2
 
 # Code Explain
